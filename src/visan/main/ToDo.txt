@@ -1,0 +1,2 @@
+Restore all GUI options
+NN features in classify wrong

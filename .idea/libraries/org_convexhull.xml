@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="org.convexhull">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/jogl/org.convexhull.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/jogl/org.convexhull.jar!/" />
+    </SOURCES>
+  </library>
+</component>

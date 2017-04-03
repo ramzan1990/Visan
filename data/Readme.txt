@@ -1,0 +1,1 @@
+Learning set can have features names listed in the begining but it is not necessary. Testing set never should have features names. Delimiter can be anything. Class position can be in the begning of the row or in the end. You will be asked about this when loading data.

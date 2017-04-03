@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="newt.all">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/jogl/newt.all.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
