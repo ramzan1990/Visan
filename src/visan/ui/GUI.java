@@ -592,7 +592,7 @@ public class GUI extends VFrame {
                 editorPane.setText(
                         "<html>"
                                 + "<body bgcolor = \"#535353\" link=\"#009aff\" vlink=\"#009aff\" alink=\"#009aff\">"
-                                + "Visan - Visual data analysis package,  (c) Softberry Inc. 2014"
+                                + "Visan - Visual data analysis package,  (c) Softberry Inc. 2017"
                                 + "<br>Authors: Ramzan Umarov & Victor Solovyev<br>"
                                 + "<a href='http://www.softberry.com'><font color=\"009aff\">www.softberry.com</font>"
                                 + "<a href=\"mailto:softberry@softberry.com?Subject=VISAN\" target=\"_top\"><br>"
