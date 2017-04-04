@@ -9,6 +9,7 @@
 basicstyle=\footnotesize,       
 frame=single,          
 }
+\graphicspath{{./figs/}}
 
 \titleformat{\chapter}[display]
   {\normalfont\bfseries}{}{0pt}{\Huge}
@@ -43,32 +44,18 @@ frame=single,
 \addcontentsline{toc}{section}{Introduction}
 VISAN can create, save and open projects. Save project is used to save the data set, the decision thresholds for classification methods, and also the neural networks if any were created. To save project press save icon or File/Save menu. Then navigate to place where you want to save the project, enter the project name and press save. 
 
-\begin{figure}[htb]
-\centering
-\includegraphics[width=240pt]{save.png}
-\caption{Saving Project}
-\end{figure}
-
-
 Folder with the project name will be created. In that folder there will be a file with the project name and extension "vis". Now the saved project can be opened by opening that file. However, it is not necessary. You can work with the program without ever saving the project.
 
 To start working user first needs to load data; this can be done from menu Data/Load Learning Set or by pressing the "load data" icon. 
-
-\begin{figure}[htb]
-\centering
-\includegraphics[width=320pt]{s1.png}
-\caption{Loading Data}
-\end{figure}
-\newpage
-
 
 User will be asked what delimiter to use and where the class label is located. If data is delimited with tab or space leave the field blank. 
 
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=160pt]{s2.png}
+\includegraphics[width=160pt]{fig1.png}
 \caption{Data Input Options}
+ \label{fig:fig1}
 \end{figure} 
 
 
@@ -96,16 +83,24 @@ Example of data with two classes:
 
 \begin{wrapfigure}{L}{5cm} 
 \begin{center}
-\includegraphics[width = 75pt]{s3.png}
+\includegraphics[width = 60pt]{fig2.png}
 \end{center}
 \caption{Data Panel}
+\label{fig:fig2}
 \end{wrapfigure}
 
-Before visualizing or analyzing the data, you first need to select classes and features you want to work with. By default, they are all selected (see figure 4). When using classification it is recommended to select all features for best results. However, this is not always the case, since user might want to check importance of each feature, and in some cases feature might not improve the training at all. 
+Before visualizing or analyzing the data, you first need to select classes and features you want to work with. By default, they are all selected (figure~\ref{fig:fig2}). When using classification it is recommended to select all features for best results. However, this is not always the case, since user might want to check importance of each feature, and in some cases feature might not improve the training at all. 
 
 Data can be transformed to improve classification or change its visualization. Select one of the available options: normalize, square root, logarithm scale, and reciprocal. Normalization is crucial for neural networks to work with some data (when features are scaled very differently), but in some cases it may cause classification to work worse. It is recommended to try both.
 
-You can get data statistics which are available from menu Statistics/Descriptive statistics. This will display descriptive statistics for selected features and classes. Important statistics about data are shown such as mean, standard deviation,  and distribution.
+You can get data statistics which are available from menu Statistics/Descriptive statistics. This will display descriptive statistics for selected features and classes. Important statistics about data are shown such as mean, standard deviation,  and distribution  (figure~\ref{fig:fig3}).
+\newpage
+\begin{figure}[htb]
+\centering
+\includegraphics[width=400pt]{fig3.png}
+\caption{Data Statistics}
+\label{fig:fig3}
+\end{figure}
 
 \newpage
 \section*{Data Visualization}
@@ -115,14 +110,14 @@ Data can be visualized using following types of graphs: plot, histogram, and tre
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=320pt]{s4.png}
+\includegraphics[width=320pt]{fig4.png}
 \end{figure}
 
 Right click on the first point to finish selection:
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=320pt]{s5.png}
+\includegraphics[width=320pt]{fig5.png}
 \end{figure}
  
 
@@ -132,48 +127,48 @@ You can change the number of bins of the histogram and its type in options menu 
 
 
 
-Histogram of feature m1 with number of bins set to 10:
+Histogram of feature fn1 with number of bins set to 10:
  
 \begin{figure}[htb]
 \centering
-\includegraphics[width=260pt]{s6.png}
+\includegraphics[width=220pt]{fig6.png}
 \end{figure} 
  
  
  
-Histogram of feature m1 with number of bins set to 25:
+Histogram of feature fn1 with number of bins set to 25:
  
  
  
 \begin{figure}[htb]
 \centering
-\includegraphics[width=260pt]{s7.png}
+\includegraphics[width=220pt]{fig7.png}
 \end{figure} 
 
 
 
-Another type of histogram for the same data:
+Bar histogram for the same data:
 
 
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=260pt]{s8.png}
+\includegraphics[width=220pt]{fig8.png}
 \end{figure} 
 
 \newpage
-Trend of feature m1 for classes 1 and -1:
+Trend of feature fn1 for classes 1 and -1:
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=320pt]{s9.png}
+\includegraphics[width=320pt]{fig9.png}
 \end{figure} 
 
-3D Plot of features m1, m2, and m3 for classes 1 and -1:
+3D Plot of features fn1, fn2, and fn3 for classes 1 and -1:
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=260pt]{s10.png}
+\includegraphics[width=260pt]{fig10.png}
 \end{figure}
 
 \newpage
@@ -183,9 +178,11 @@ Trend of feature m1 for classes 1 and -1:
 Following data classification methods are available:
 \begin{enumerate}
 \item	Linear and Quadratic Discriminant Analysis.
-\item Neural Net 
 \item Least Squares 
-\item Nearest Neighbors
+\item Nearest Neighbors 
+\item Neural Networks 
+\item Random forest
+
 \end{enumerate}
 They are all available in menu Classification. 
 \subsection*{LDF and QDF}
@@ -194,7 +191,7 @@ To choose between linear and quadratic analysis use menu Options/DA Options. Als
  
 \begin{figure}[htb]
 \centering
-\includegraphics[width=360pt]{s11.png}
+\includegraphics[width=360pt]{fig11.png}
 \caption{Accuracy Histogram}
 \end{figure}
 \newpage
@@ -210,12 +207,6 @@ The features should obviously be in same order as original learning set.
 
 If you also have testing set for your data you can draw testing set histogram. You can see how good the algorithm performs on testing set. Select Test histogram and select the testing set file.
 
-\begin{figure}[htb]
-\centering
-\includegraphics[width=360pt]{s12.png}
-\caption{Testing set Histogram}
-\end{figure}
-
 Testing set should not have features names in it. Example:
 
 \begin{lstlisting}
@@ -228,6 +219,17 @@ Testing set should not have features names in it. Example:
 
 Histogram, test histogram and classify work same for all methods.
 
+\newpage
+\subsection*{Least Squares}
+\addcontentsline{toc}{subsection}{Least Squares}
+Least Squares method in primary form produces results that are similar to LDF. However, it only works for two classes. Press Find Parameters first and then you can start using this method for accuracy histograms and classification. If you want to use dual form, select Options/LS Options/Dual Form. Dialog will be shown where you can select type of kernel (dot product, polynomial, or radial). Use dual form when you have a lot of features, but not many training examples. Using this method with large data sets, for example 2000 objects, may cause program to run out of memory.
+
+
+\subsection*{Nearest Neighbors}
+\addcontentsline{toc}{subsection}{Nearest Neighbors}
+This is the most simple classification method. Only testing set histogram and classify is available for it. You can change the number of neighbors to compare to in Options/Nearest Neighbors/Choose N. Also, you can use kernelised version of nearest neighbors by selecting dual form checkbox there. 
+\newpage
+
 \subsection*{Neural Networks}
 \addcontentsline{toc}{subsection}{Neural Networks}
 To use neural networks, you first need to train the network. Press "learn" in and you can see the progress in console. Neural Net has a lot of parameters that can be changed from Options/Neural Net, or the default values can be used. Most of parameters are set to optimal values and should not be changed unless you have experience with neural networks. The parameters that should be considered by user to change are stopping criteria and the number of learns.
@@ -235,43 +237,37 @@ To use neural networks, you first need to train the network. Press "learn" in an
 Choose one of the stopping criteria from Options/Neural Net - "Testing Set Stop", "No Improvements Stop", or "Manual Stop".  At any time you can manually stop learning by selecting Classification/Neural Net/Stop Learning. If you want to obtain very good neural net for classification, set the number of learns to high number. In this case program will try a lot of different nets and choose the best one. Remember that you can always stop the learning and in that case the best net so far will be used. 
 
 For example, see the figure bellow. Here we are training neural networks with number of learns set to 100 and using testing set stop. Result is the error in the testing set for the current net, minimum is the smallest error so far. 
-
-
 \begin{figure}[htb]
 \centering
-\includegraphics[width=360pt]{s13.png}
+\includegraphics[width=400pt]{fig12.png}
 \caption{Training Neural Networks}
 \end{figure}
 
 \newpage
-\subsection*{Least Squares}
-\addcontentsline{toc}{subsection}{Least Squares}
-Least Squares method in primary form produces results that are similar to LDF. However, it only works for two classes. Press Find Parameters first and then you can start using this method for accuracy histograms and classification. If you want to use dual form, select Options/LS Options/Dual Form. Dialog will be shown where you can select type of kernel (dot product, polynomial, or radial). Use dual form when you have a lot of features, but not many training examples. Using this method with large data sets, for example 2000 objects, may cause program to run out of memory.
+\subsection*{Random forest}
+\addcontentsline{toc}{subsection}{Random forest}
+Random forests works by constructing a large number of decision trees during training phase. When provided with an unseen object random forests assigns 
+it the most common class label given for this input by its trees. These decision  trees are created as follows:
+If the number of cases in the training set is N, sample N cases at random - but with replacement, from the original data. This sample will be the training set for growing the tree. If there are M input variables, a number m is specified such that at each node, m variables are selected at random out of the M and the best split on these m is used to split the node. The value of m is held constant during the forest growing. 
 
-\begin{figure}[htb]
-\centering
-\includegraphics[width=360pt]{s17.png}
-\caption{Least Squares Accuracy Histogram}
-\end{figure}
+User can select following parameters for Random forest in Visan: number of trees, sample size, number of features, tree max depth, and branching factor. Another performance related parameter is number of threads, this can be used to increase the speed of constructing the forest by building trees in separate threads. 
 
 
-\subsection*{Nearest Neighbors}
-\addcontentsline{toc}{subsection}{Nearest Neighbors}
-This is the most simple classification method. Only testing set histogram and classify is available for it. You can change the number of neighbors to compare to in Options/Nearest Neighbors/Choose N. Also, you can use kernelised version of nearest neighbors by selecting dual form checkbox there. 
 \newpage
+
 \section*{Principal Component Analysis}
 \addcontentsline{toc}{section}{Principal Component Analysis}
 Program includes Principal Component Analysis. To start using it you need to find principal components (PCA/Find Principal Components). After that you can draw 2D or 3D graph to see clustering of data. You will be prompted which eigenvectors to use. Left click on eigenvectors holding down Cntrl to choose the ones you want. They are sorted by their eigenvalue, eigenvector 0 has highest eigenvalue.
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=240pt]{s15.png}
+\includegraphics[width=240pt]{fig13.png}
 \caption{2 eigenvectors}
 \end{figure}
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=240pt]{s16.png}
+\includegraphics[width=240pt]{fig14.png}
 \caption{3 eigenvectors}
 \end{figure}
 \end{document}

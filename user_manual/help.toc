@@ -1,8 +1,9 @@
 \contentsline {section}{Introduction}{1}{chapter*.1}
-\contentsline {section}{Data Visualization}{4}{figure.0.4}
-\contentsline {section}{Classification}{7}{figure.0.4}
-\contentsline {subsection}{LDF and QDF}{7}{Item.4}
-\contentsline {subsection}{Neural Networks}{9}{lstnumber.-3.4}
-\contentsline {subsection}{Least Squares}{11}{figure.0.7}
-\contentsline {subsection}{Nearest Neighbors}{11}{figure.0.8}
-\contentsline {section}{Principal Component Analysis}{12}{figure.0.8}
+\contentsline {section}{Data Visualization}{4}{figure.0.3}
+\contentsline {section}{Classification}{7}{figure.0.3}
+\contentsline {subsection}{LDF and QDF}{7}{Item.5}
+\contentsline {subsection}{Least Squares}{9}{lstnumber.-3.4}
+\contentsline {subsection}{Nearest Neighbors}{9}{lstnumber.-3.4}
+\contentsline {subsection}{Neural Networks}{10}{lstnumber.-3.4}
+\contentsline {subsection}{Random forest}{11}{figure.0.5}
+\contentsline {section}{Principal Component Analysis}{12}{figure.0.5}

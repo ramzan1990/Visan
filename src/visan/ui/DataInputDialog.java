@@ -23,7 +23,7 @@ public class DataInputDialog extends JDialog  {
     }
 
     private DataInputDialog(String labelText, String title,  Object[] data) {
-        super(new JFrame(), title, true);
+        super(new VFrame(), title, true);
         final JButton OKButton = new JButton("OK");
         OKButton.addActionListener(new ActionListener() {
 

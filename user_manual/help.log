@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.23)  4 APR 2017 01:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.23)  4 APR 2017 15:09
 entering extended mode
 **./help.tex
 (help.tex
@@ -215,20 +215,20 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 ) (help.aux)
 \openout1 = `help.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 (C:\Users\Umarov\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -256,7 +256,7 @@ Package grfext Info: Graphics extension search list:
 )
 \c@lstlisting=\count115
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 33.
+Package hyperref Info: Link coloring OFF on input line 34.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -266,20 +266,20 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count116
 )
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
-LaTeX Info: Redefining \nameref on input line 33.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
  (help.out) (help.out)
 \@outlinefile=\write3
 \openout3 = `help.out'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 \OT1/cmr/m/sc/17.28 Ramzan Umarov and Vic-tor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 
  []
 
@@ -299,147 +299,133 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [2
 
 ]
-<save.png, id=55, 450.18187pt x 327.47343pt>
-File: save.png Graphic file (type png)
- <use save.png>
-Package pdftex.def Info: save.png used on input line 48.
-(pdftex.def)             Requested size: 240.0pt x 174.58444pt.
- <s1.png, id=56, 697.8572pt x 551.05875pt>
-File: s1.png Graphic file (type png)
- <use s1.png>
-Package pdftex.def Info: s1.png used on input line 59.
-(pdftex.def)             Requested size: 320.0pt x 252.68288pt.
+<./figs/fig1.png, id=57, 209.28188pt x 161.10187pt>
+File: ./figs/fig1.png Graphic file (type png)
+ <use ./figs/fig1.png>
+Package pdftex.def Info: ./figs/fig1.png used on input line 56.
+(pdftex.def)             Requested size: 160.0pt x 123.16385pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 \newpage
-              [1 <./save.png>] <s2.png, id=62, 217.5628pt x 149.8097pt>
-File: s2.png Graphic file (type png)
- <use s2.png>
-Package pdftex.def Info: s2.png used on input line 70.
-(pdftex.def)             Requested size: 160.0pt x 110.18079pt.
+l.63 \newpage
+              [1 <./figs/fig1.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 71.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 71.
+ <./figs/fig2.png, id=62, 161.85469pt x 620.3175pt>
+File: ./figs/fig2.png Graphic file (type png)
+ <use ./figs/fig2.png>
+Package pdftex.def Info: ./figs/fig2.png used on input line 86.
+(pdftex.def)             Requested size: 60.0pt x 229.94928pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 \newpage
-              [2 <./s1.png> <./s2.png>]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 84.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 84.
- <s3.png, id=69, 122.70844pt x 375.65344pt>
-File: s3.png Graphic file (type png)
- <use s3.png>
-Package pdftex.def Info: s3.png used on input line 99.
-(pdftex.def)             Requested size: 75.0pt x 229.60681pt.
- [3 <./s3.png>]
-<s4.png, id=90, 1142.76938pt x 570.63188pt>
-File: s4.png Graphic file (type png)
- <use s4.png>
-Package pdftex.def Info: s4.png used on input line 118.
-(pdftex.def)             Requested size: 320.0pt x 159.78455pt.
- <s5.png, id=91, 1141.26375pt x 570.63188pt>
-File: s5.png Graphic file (type png)
- <use s5.png>
-Package pdftex.def Info: s5.png used on input line 125.
-(pdftex.def)             Requested size: 320.0pt x 159.99352pt.
+l.97 \newpage
+              [2 <./figs/fig2.png>] <./figs/fig3.png, id=84, 1010.27437pt x 453.19313pt>
+File: ./figs/fig3.png Graphic file (type png)
+ <use ./figs/fig3.png>
+Package pdftex.def Info: ./figs/fig3.png used on input line 100.
+(pdftex.def)             Requested size: 400.0pt x 179.4346pt.
 
-[4 <./s4.png> <./s5.png>] <s6.png, id=98, 1143.52219pt x 571.38469pt>
-File: s6.png Graphic file (type png)
- <use s6.png>
-Package pdftex.def Info: s6.png used on input line 139.
-(pdftex.def)             Requested size: 260.0pt x 129.9161pt.
+Overfull \hbox (10.0pt too wide) in paragraph at lines 100--101
+ [][] 
+ []
 
-<s7.png, id=99, 1140.51094pt x 570.63188pt>
-File: s7.png Graphic file (type png)
- <use s7.png>
-Package pdftex.def Info: s7.png used on input line 150.
-(pdftex.def)             Requested size: 260.0pt x 130.08452pt.
- <s8.png, id=100, 1140.51094pt x 572.1375pt>
-File: s8.png Graphic file (type png)
- <use s8.png>
-Package pdftex.def Info: s8.png used on input line 161.
-(pdftex.def)             Requested size: 260.0pt x 130.42775pt.
+[3 <./figs/fig3.png>] <./figs/fig4.png, id=89, 829.59938pt x 455.45157pt>
+File: ./figs/fig4.png Graphic file (type png)
+ <use ./figs/fig4.png>
+Package pdftex.def Info: ./figs/fig4.png used on input line 113.
+(pdftex.def)             Requested size: 320.0pt x 175.6795pt.
 
-[5 <./s6.png> <./s7.png> <./s8.png>] <s9.png, id=109, 1142.76938pt x 571.38469pt>
-File: s9.png Graphic file (type png)
- <use s9.png>
-Package pdftex.def Info: s9.png used on input line 169.
-(pdftex.def)             Requested size: 320.0pt x 159.99533pt.
+<./figs/fig5.png, id=90, 829.59938pt x 450.9347pt>
+File: ./figs/fig5.png Graphic file (type png)
+ <use ./figs/fig5.png>
+Package pdftex.def Info: ./figs/fig5.png used on input line 120.
+(pdftex.def)             Requested size: 320.0pt x 173.93723pt.
+ [4 <./figs/fig4.png> <./figs/fig5.png>]
+<./figs/fig6.png, id=95, 830.35219pt x 450.9347pt>
+File: ./figs/fig6.png Graphic file (type png)
+ <use ./figs/fig6.png>
+Package pdftex.def Info: ./figs/fig6.png used on input line 134.
+(pdftex.def)             Requested size: 220.0pt x 119.46959pt.
 
-<s10.png, id=110, 439.6425pt x 433.62pt>
-File: s10.png Graphic file (type png)
- <use s10.png>
-Package pdftex.def Info: s10.png used on input line 176.
-(pdftex.def)             Requested size: 260.0pt x 256.44229pt.
- [6 <./s9.png> <./s10.png>]
-<s11.png, id=117, 752.8125pt x 561.59813pt>
-File: s11.png Graphic file (type png)
- <use s11.png>
-Package pdftex.def Info: s11.png used on input line 197.
-(pdftex.def)             Requested size: 360.0pt x 268.56999pt.
- [7] <s12.png, id=125, 752.8125pt x 561.59813pt>
-File: s12.png Graphic file (type png)
- <use s12.png>
-Package pdftex.def Info: s12.png used on input line 215.
-(pdftex.def)             Requested size: 360.0pt x 268.56999pt.
+<./figs/fig7.png, id=96, 830.35219pt x 453.19313pt>
+File: ./figs/fig7.png Graphic file (type png)
+ <use ./figs/fig7.png>
+Package pdftex.def Info: ./figs/fig7.png used on input line 145.
+(pdftex.def)             Requested size: 220.0pt x 120.06793pt.
 
-[8 <./s11.png>] <s13.png, id=138, 752.8125pt x 561.59813pt>
-File: s13.png Graphic file (type png)
- <use s13.png>
-Package pdftex.def Info: s13.png used on input line 242.
-(pdftex.def)             Requested size: 360.0pt x 268.56999pt.
- [9 <./s12.png>] [10 <./s13.png>]
-<s17.png, id=148, 688.07062pt x 548.80031pt>
-File: s17.png Graphic file (type png)
- <use s17.png>
-Package pdftex.def Info: s17.png used on input line 253.
-(pdftex.def)             Requested size: 360.0pt x 287.12796pt.
- [11 <./s17.png>] <s15.png, id=154, 752.8125pt x 561.59813pt>
-File: s15.png Graphic file (type png)
+<./figs/fig8.png, id=97, 831.105pt x 453.94594pt>
+File: ./figs/fig8.png Graphic file (type png)
+ <use ./figs/fig8.png>
+Package pdftex.def Info: ./figs/fig8.png used on input line 156.
+(pdftex.def)             Requested size: 220.0pt x 120.16348pt.
+ [5 <./figs/fig6.png> <./figs/fig7.png> <./figs/fig8.png>] <./figs/fig9.png, id=103, 828.84656pt x 456.95718pt>
+File: ./figs/fig9.png Graphic file (type png)
+ <use ./figs/fig9.png>
+Package pdftex.def Info: ./figs/fig9.png used on input line 164.
+(pdftex.def)             Requested size: 320.0pt x 176.42062pt.
 
-<use s15.png>
-Package pdftex.def Info: s15.png used on input line 268.
-(pdftex.def)             Requested size: 240.0pt x 179.0381pt.
- <s16.png, id=155, 752.8125pt x 561.59813pt>
-File: s16.png Graphic file (type png)
- <use s16.png>
-Package pdftex.def Info: s16.png used on input line 274.
-(pdftex.def)             Requested size: 240.0pt x 179.0381pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 277.
- [12 <./s15.png> <./s16.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 277.
- (help.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 277.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 277.
+<./figs/fig10.png, id=104, 829.59938pt x 455.45157pt>
+File: ./figs/fig10.png Graphic file (type png)
+ <use ./figs/fig10.png>
+Package pdftex.def Info: ./figs/fig10.png used on input line 171.
+(pdftex.def)             Requested size: 260.0pt x 142.73828pt.
+ [6 <./figs/fig9.png> <./figs/fig10.png>]
+<./figs/fig11.png, id=109, 829.59938pt x 451.6875pt>
+File: ./figs/fig11.png Graphic file (type png)
+ <use ./figs/fig11.png>
+Package pdftex.def Info: ./figs/fig11.png used on input line 194.
+(pdftex.def)             Requested size: 360.0pt x 196.00691pt.
+ [7 <./figs/fig11.png>] [8] [9]
+<./figs/fig12.png, id=134, 1445.4pt x 783.67781pt>
+File: ./figs/fig12.png Graphic file (type png)
+ <use ./figs/fig12.png>
+Package pdftex.def Info: ./figs/fig12.png used on input line 242.
+(pdftex.def)             Requested size: 400.0pt x 216.86928pt.
 
+Overfull \hbox (10.0pt too wide) in paragraph at lines 242--243
+ [][] 
+ []
 
-Package rerunfilecheck Warning: File `help.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+[10 <./figs/fig12.png>] [11] <./figs/fig13.png, id=144, 830.35219pt x 450.9347pt>
+File: ./figs/fig13.png Graphic file (type png)
+ <use ./figs/fig13.png>
+Package pdftex.def Info: ./figs/fig13.png used on input line 264.
+(pdftex.def)             Requested size: 240.0pt x 130.33423pt.
 
-Package rerunfilecheck Info: Checksums for `help.out':
-(rerunfilecheck)             Before: D0A07D7B33B13525E780B13AA00380BA;464
-(rerunfilecheck)             After:  8970DDE737821E7EA9FECBE204D35549;464.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 277.
+<./figs/fig14.png, id=145, 831.85782pt x 453.94594pt>
+File: ./figs/fig14.png Graphic file (type png)
+ <use ./figs/fig14.png>
+Package pdftex.def Info: ./figs/fig14.png used on input line 270.
+(pdftex.def)             Requested size: 240.0pt x 130.96906pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
+ [12 <./figs/fig13.png> <./figs/fig14.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
+
+(help.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
+Package rerunfilecheck Info: File `help.out' has not changed.
+(rerunfilecheck)             Checksum: A3B0DBD9962F396DE2A4641E68D2DCE6;532.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 273.
  ) 
 Here is how much of TeX's memory you used:
- 7030 strings out of 493335
- 102346 string characters out of 3136677
- 229152 words of memory out of 3000000
- 10452 multiletter control sequences out of 15000+200000
+ 7015 strings out of 493335
+ 102701 string characters out of 3136677
+ 229278 words of memory out of 3000000
+ 10442 multiletter control sequences out of 15000+200000
  9148 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,5n,32p,908b,939s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{chapter*.2} has been referenced but does not exist, replaced by a fixed one
-
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on help.pdf (14 pages, 1209162 bytes).
+ 29i,6n,32p,908b,939s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on help.pdf (14 pages, 627616 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 

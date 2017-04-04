@@ -1,0 +1,40 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Visan:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/Visan_jar</output-path>
+    <root id="archive" name="Visan.jar">
+      <element id="module-output" name="Visan" />
+      <element id="library" level="module" name="org.jzy3d-0.9.jar" module-name="Visan" />
+      <element id="library" level="module" name="colt-1.2.0.jar" module-name="Visan" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jogl/jogl.util.jar" path-in-jar="/" />
+      <element id="library" level="module" name="commons-lang3-3.1.jar" module-name="Visan" />
+      <element id="library" level="module" name="commons-collections-2.1.jar" module-name="Visan" />
+      <element id="library" level="module" name="commons-logging-1.1.1.jar" module-name="Visan" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/commons-math-2.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/org.jzy3d-0.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jogl/newt.all.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jogl/swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jogl/nativewindow.all.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jogl/gluegen-rt.jar" path-in-jar="/" />
+      <element id="library" level="module" name="junit-3.8.1.jar" module-name="Visan" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jogl/swt-debug.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jogl/jogl.all.jar" path-in-jar="/" />
+      <element id="library" level="module" name="joptimizer-3.2.0.jar" module-name="Visan" />
+      <element id="library" level="module" name="commons-math3-3.2.jar" module-name="Visan" />
+      <element id="library" level="module" name="commons-math-2.2.jar" module-name="Visan" />
+      <element id="library" level="module" name="log4j-1.2.14.jar" module-name="Visan" />
+      <element id="library" level="module" name="jblas-1.2.3.jar" module-name="Visan" />
+      <element id="library" level="module" name="ojalgo-36.0.jar" module-name="Visan" />
+      <element id="library" level="module" name="commons-digester-1.6.jar" module-name="Visan" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jogl/opencsv-2.1.jar" path-in-jar="/" />
+      <element id="library" level="module" name="colt.jar" module-name="Visan" />
+      <element id="library" level="module" name="commons-io-1.4.jar" module-name="Visan" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jogl/org.convexhull.jar" path-in-jar="/" />
+      <element id="library" level="module" name="joptimizer-3.2.0-sources.jar" module-name="Visan" />
+      <element id="library" level="module" name="jdepend-2.9.1.jar" module-name="Visan" />
+      <element id="library" level="module" name="mtj-0.9.9.jar" module-name="Visan" />
+      <element id="library" level="module" name="commons-beanutils-1.6.jar" module-name="Visan" />
+      <element id="library" level="module" name="architecture-rules-3.0.0-M1.jar" module-name="Visan" />
+      <element id="library" level="module" name="xml-apis-1.0.b2.jar" module-name="Visan" />
+    </root>
+  </artifact>
+</component>
